@@ -11,10 +11,22 @@ function SecondHome() {
             All
           </NavLink>
         </div>
-        <div className="bar_items">
-          <NavLink to="/search" className="item">
-            Trending Now
+        <div className="bar_items relative">
+          <NavLink class="peer px-5  hover:bg-green-700 text-white">
+            Trending
           </NavLink>
+
+          <div class="absolute hidden peer-hover:flex hover:flex w-[200px] flex-col bg-white drop-shadow-lg">
+            <a class="px-5 py-3 hover:bg-gray-200" href="#">
+              About Us
+            </a>
+            <a class="px-5 py-3 hover:bg-gray-200" href="#">
+              Contact Us
+            </a>
+            <a class="px-5 py-3 hover:bg-gray-200" href="#">
+              Privacy Policy
+            </a>
+          </div>
         </div>
         <div className="bar_items">
           <NavLink to="/" className="item">
