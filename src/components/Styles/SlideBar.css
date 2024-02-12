@@ -1,0 +1,17 @@
+.text{
+    color: white;
+}
+.SlideBar_container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    display: inline-block;
+}
+
+.SlideBar_img_container:focus-visible{
+    outline: none;
+}
+.SlideBar_img_container img{
+ 
+    border-radius: 17px;
+}

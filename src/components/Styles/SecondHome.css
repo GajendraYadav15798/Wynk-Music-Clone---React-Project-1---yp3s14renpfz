@@ -1,0 +1,17 @@
+
+.secondry_bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .secondry_bar_container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .item {
+    text-decoration: none;
+    color: white;
+  }
+  
