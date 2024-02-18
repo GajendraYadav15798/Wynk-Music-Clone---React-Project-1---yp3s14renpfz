@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Styles/Home.css";
+
 import "./Styles/SecondHome.css";
 function SecondHome() {
   return (
@@ -12,9 +12,9 @@ function SecondHome() {
           </NavLink>
         </div>
         <div className="bar_items relative">
-          <NavLink class="peer px-5  hover:bg-green-700 text-white">
+          <button class="peer px-5  hover:bg-green-700 text-white">
             Trending
-          </NavLink>
+          </button>
 
           <div class="absolute hidden peer-hover:flex hover:flex w-[200px] flex-col bg-white drop-shadow-lg">
             <a class="px-5 py-3 hover:bg-gray-200" href="#">

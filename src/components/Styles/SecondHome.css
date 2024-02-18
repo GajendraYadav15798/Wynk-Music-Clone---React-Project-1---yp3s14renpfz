@@ -1,7 +1,9 @@
 
-.secondry_bar {
+.Secondry_bar {
     display: flex;
     justify-content: center;
+    padding: 2rem 3rem;
+    background-color: rgb(12, 15, 18);
   }
   
   .secondry_bar_container {
@@ -14,4 +16,5 @@
     text-decoration: none;
     color: white;
   }
+  
   

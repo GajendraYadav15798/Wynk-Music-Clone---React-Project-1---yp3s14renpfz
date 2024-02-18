@@ -1,0 +1,57 @@
+.footer-bottom{
+  display: flexbox;
+  justify-content: flex-start;
+  display: flex;
+  justify-content: flex-end;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.social-icons svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; 
+}
+.footer{
+background-color: lightgray;
+color: gray;
+}
+.About-Wynk-Music{
+  color: #ffffff;
+  font: 24px Roboto, Helvetica, Arial,sans-serif;
+  margin: 0px 0px 12px;;
+}
+footer {
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 1px; 
+    display: flex;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 1px;
+    text-align: center;
+  }
+  
+  .social-icons svg{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    border-radius: 50%;
+    padding:1rem;
+  }

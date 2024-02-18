@@ -4,8 +4,7 @@ import Signup from "./Signup";
 import { Routes, Route } from "react-router-dom";
 import axios from "axios";
 import Home from "./Home";
-
-
+import Footer from "./Footer";
 
 function App() {
   axios.interceptors.request.use(async (config) => {
@@ -14,15 +13,14 @@ function App() {
   });
   return (
     <div className="App">
-    <Home/>
-    
+      <Home />
+
       <Routes>
-     
         <Route path="/" element={<Album />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
       </Routes>
-      
+      <Footer />
     </div>
   );
 }

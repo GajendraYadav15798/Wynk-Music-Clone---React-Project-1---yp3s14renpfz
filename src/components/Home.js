@@ -4,7 +4,8 @@ import "./Styles/Home.css";
 import { FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import SecondHome from "./SecondHome";
-import SliderBar from "./SlideBar";
+
+import Songs from "./Songs";
 
 const Home = () => {
   const [list, setList] = useState([]); // Define list state variable and setList function
@@ -121,8 +122,8 @@ const Home = () => {
         </div>
       </div>
       <SecondHome />
-
-      <SliderBar />
+       <Songs/>
+      
     </header>
   );
 };

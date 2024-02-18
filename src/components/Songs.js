@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import "./Styles/SlideBar.css";
+import "./Styles/Songs.css";
 
 
-function SlideBar() {
+function Songs() {
   const settings = {
     dots: false,
     arrows:true,
@@ -13,6 +13,7 @@ function SlideBar() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    autoPlay:false
   };
   return (
     <Slider {...settings}>
@@ -83,4 +84,4 @@ function SlideBar() {
   );
 }
 
-export default SlideBar;
+export default Songs;
