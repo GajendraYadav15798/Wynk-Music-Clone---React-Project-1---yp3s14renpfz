@@ -12,6 +12,7 @@ function Login() {
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -54,8 +55,8 @@ function Login() {
         <select name="appType" onChange={handleChange} id="appType" required>
           <option value="music">music</option>
           <option value="album">album</option>
-        </select>
-        <button type="submit">Submit</button>
+        </select><br/>
+        <button type="submit">Login</button>
       </form>
     </div>
   );

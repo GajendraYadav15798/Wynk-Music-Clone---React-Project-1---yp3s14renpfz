@@ -1,3 +1,11 @@
+.play-button{
+  border-radius: 100%;
+  background-color: brown;
+}
+.play-button{
+  border: 100%;
+  background-color: brown;
+}
 .Album{
   background-color: rgb(27,27,18);
 }

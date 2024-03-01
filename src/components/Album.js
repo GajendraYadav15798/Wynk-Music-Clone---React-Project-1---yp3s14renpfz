@@ -14,7 +14,7 @@ function Album() {
     autoplay: true,
     speed: 4000,
     autoplaySpeed: 4000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
   const [music, setMusic] = useState([]);
   useEffect(() => {
@@ -35,20 +35,23 @@ function Album() {
 
   return (
     <div className="Album">
-    <Slider {...settings}>
-    {music.map((song, index) => {
+      <Slider {...settings}>
+        {music.map((song, index) => {
           return (
             <div className="music" key={index}>
-            <div className="image-conatiner">
-              <img src={song.image} alt={song.title} />
-              <div class="button"> <span className="play-button">&#9654;</span></div>
+              <div className="image-conatiner">
+                <img src={song.image} alt={song.title} />
+                <div class="button">
+                  {" "}
+                  <span className="play-button">&#9654;</span>
+                </div>
               </div>
               <h4>{song.title}</h4>
             </div>
           );
         })}
-        </Slider>
-        </div>
+      </Slider>
+    </div>
   );
 }
 

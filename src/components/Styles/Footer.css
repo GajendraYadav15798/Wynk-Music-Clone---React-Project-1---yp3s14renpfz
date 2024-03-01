@@ -1,57 +1,205 @@
-.footer-bottom{
-  display: flexbox;
-  justify-content: flex-start;
-  display: flex;
-  justify-content: flex-end;
-}
-.social-icons {
-  display: flex;
-  justify-content: flex-start; 
+.footer{
+  
+  width: full;
+  background-color: #0C0F12;
+  padding: 72px;
+ 
 }
 
-.social-icons svg {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px; 
-}
-.footer{
-background-color: lightgray;
-color: gray;
-}
-.About-Wynk-Music{
-  color: #ffffff;
-  font: 24px Roboto, Helvetica, Arial,sans-serif;
-  margin: 0px 0px 12px;;
-}
-footer {
-    color: #fff;
-    padding: 50px 0;
-    margin-top: 1px; 
-    display: flex;
-  }
+.footer__one{
   
-  .footer-content {
+  margin: 20px;
+  border: 0.2px solid white;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.footer__one p{
+  color: #7F8081;
+padding: 3px;
+font-size: 20px;
+
+  
+  }
+  .heading__one{
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 27px;
+  }
+  .music__logo{
+    background-color: #21252D;
+    height: 172px;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 1px;
-  }
-  
-  .footer-bottom {
-    border-top: 1px solid #555;
-    padding-top: 1px;
-    text-align: center;
-  }
-  
-  .social-icons svg{
-    width:20px;
-    height:20px;
-    border:1px solid black;
+  .image >img{
     border-radius: 50%;
-    padding:1rem;
   }
+  .image{
+     padding: 30px;
+     
+  }
+  .logo__app{
+    color: white;
+  }
+  .logo__music{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .play__store{
+    display: flex;
+    
+    height: 70px;
+    align-items: center;
+    margin-top: 43px;
+    margin-right: 55px;
+   }
+   .image__play{
+    height: 154px;
+    width: 231px 
+   }
+   .apple__store{
+    height: 63px;
+    width: 231px 
+   }
+   .list{
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+   .heading{
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    
+  }
+  .para{
+    color: #7F8081;
+    padding-right: 132px;
+  }
+  .paras{
+    color: #7F8081;
+    padding-right: 132px;
+  }
+  .paras__one{
+    color: #7F8081;
+    
+    margin-right: 50px 
+  }
+  .paras__two{
+    color: #7F8081;
+    padding-right: 132px;
+  }
+  .raju{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+  }
+.word{
+  color: #7F8081;
+  margin-right: 25px
+}
+.heading__one{
+  font-size: large;
+}
+.last__list{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.headings{
+ font-size: 20px;
+}
+.word__one{
+  color: #7F8081;
+  
+}
+.word__ones{
+  margin-left: 25px;
+  color: #7F8081;
+  font-size: 20px;
+}
+
+.about {
+  display: flex; 
+  color: white;
+  --tw-border-opacity: 1;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-color: rgba(55, 65, 81, var(--tw-border-opacity));
+ border-color: rgba(55, 65, 81, var(--tw-border-opacity));
+    height: 92px;
+    margin-top: 44px;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 15px;
+  
+}
+
+.about-item {
+  margin-right: 20px; 
+}
+
+.icons-container{
+  display: flex;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.icon-item{
+  display: flex;
+  border-width: 1px;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  padding-left: 855px;
+}
+.last__para{
+  --tw-text-opacity: 1;
+  display: contents;
+  justify-content:center;
+  
+  color: rgba(129, 140, 148, var(--tw-text-opacity));
+   
+}
+
+.one{
+  margin-top: 18px;
+    text-align: left;
+    width: 66.666667%;
+    cursor: pointer;
+}
+.two{
+  text-align: right;
+  margin-top: -43px;
+  cursor: pointer;
+}
+
+.black{
+  display: flex;
+  color: white;
+}
+.black_one{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ten{
+  height: 25px;
+}

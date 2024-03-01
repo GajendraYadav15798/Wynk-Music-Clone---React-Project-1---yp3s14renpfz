@@ -6,6 +6,8 @@ import axios from "axios";
 import Home from "./Home";
 import Footer from "./Footer";
 
+
+
 function App() {
   axios.interceptors.request.use(async (config) => {
     config.headers["projectid"] = "f104bi07c490";
@@ -13,14 +15,17 @@ function App() {
   });
   return (
     <div className="App">
+    
       <Home />
+   
 
       <Routes>
         <Route path="/" element={<Album />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/Signup" element={<Signup />} />
+        <Route path="/register" element={<Signup />} />
       </Routes>
       <Footer />
+     
     </div>
   );
 }
